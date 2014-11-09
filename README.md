@@ -1,4 +1,4 @@
 RCy3
 ====
 
-Display and manipulate graphs in Cytoscape >= 3.1
+Display and manipulate graphs in Cytoscape >= 3.1 from R.
