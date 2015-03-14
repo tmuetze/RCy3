@@ -3,7 +3,7 @@
 \alias{getSelectedNodes,CytoscapeWindowClass-method}
 \title{getSelectedNodes}
 \description{
-Retrieve the identifiers of all the nodes selected in the current graph.
+Retrieve the names of all the nodes selected in the current graph.
 }
 \usage{
 getSelectedNodes(obj)
