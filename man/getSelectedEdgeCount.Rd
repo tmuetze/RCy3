@@ -3,7 +3,7 @@
 \alias{getSelectedEdgeCount,CytoscapeWindowClass-method}
 \title{getSelectedEdgeCount}
 \description{
-Returns the number of edge currently selected.
+Returns the number of edges currently selected.
 }
 \usage{
 getSelectedEdgeCount(obj)
