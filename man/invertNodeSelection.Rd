@@ -3,7 +3,8 @@
 \alias{invertNodeSelection,CytoscapeWindowClass-method}
 \title{invertNodeSelection}
 \description{
-Select the specified nodes.
+Invert the node selection, i.e. select all nodes that were not selected and deselect all nodes that were selected.
+
 }
 \usage{
 invertNodeSelection(obj)
@@ -19,7 +20,7 @@ None.
 
 \seealso{
   clearSelection
-  invertNodeSelection
+  invertEdgeSelection
 }
 
 \examples{
@@ -27,10 +28,6 @@ None.
      # all nodes should be selected, since none were before
   selectNodes (cw, 'A')
   invertNodeSelection (cw)
-  redraw (cw)
-     # a richer test will be to programmatically select nodes, but that
-     #  does not work yet (pshannon, 13 jan 2011)
-   
 }
 
 \keyword{graph}
