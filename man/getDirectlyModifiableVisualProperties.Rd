@@ -11,7 +11,7 @@ getDirectlyModifiableVisualProperties(obj)
 }
 \arguments{
   \item{obj}{a \code{CytoscapeConnectionClass} object. }
-  \item{vizmap.style.name}{a \code{CytoscapeConnectionClass} object. }
+  \item{vizmap.style.name}{a visual style name. }
 }
 
 \value{
