@@ -11,19 +11,18 @@ getDirectlyModifiableVisualProperties(obj)
 }
 \arguments{
   \item{obj}{a \code{CytoscapeConnectionClass} object. }
+  \item{vizmap.style.name}{a \code{CytoscapeConnectionClass} object. }
 }
 
 \value{
-A list of about 60 character strings, e.g., "Node Color" and "Edge Font Size"
+A list of about 99 character strings, e.g., "EDGE_LABEL_FONT_SIZE" and "NODE_SHAPE"
 }
 \author{Paul Shannon}
 
 \examples{
-  cy <- CytoscapeConnection ()
-  getDirectlyModifiableVisualProperties (cy)
-   #  [1] "Node Color"                      "Node Border Color"               "Node Line Type"                  "Node Shape"                     
-   #  [5] "Node Size"                       "Node Width"                      "Node Height"                     "Node Label"                     
-   # ...
+  cw <- CytoscapeConnection ()
+  getDirectlyModifiableVisualProperties (cw, vizmap.style.name="default")
+
 
 }
 
