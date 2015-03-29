@@ -3,9 +3,8 @@
 \alias{setEdgeFontSizeDirect,CytoscapeWindowClass-method}
 \title{setEdgeFontSizeDirect}
 \description{
-In the specified CytoscapeWindow, set the opacity of the specified edge
-or edges.  Low numbers, near zero, are transparent.
-High numbers, near 255, are maximally opaque:  they are fully visible.
+In the specified CytoscapeWindow, set the font size of the specified edge
+or edges.
 }
 \usage{
 setEdgeFontSizeDirect(obj, edge.names, new.value)
@@ -27,7 +26,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setEdgeFontSizeDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setEdgeFontSizeDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
