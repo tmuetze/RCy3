@@ -26,7 +26,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setEdgeColorDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setEdgeColorDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
