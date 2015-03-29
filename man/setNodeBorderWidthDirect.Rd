@@ -3,7 +3,7 @@
 \alias{setNodeBorderWidthDirect,CytoscapeWindowClass-method}
 \title{setNodeBorderWidthDirect}
 \description{
-In the specified CytoscapeWindow, set the width of the border of the specified node.
+In the specified CytoscapeWindow, set the width of the border of the specified node(s).
 }
 \usage{
 setNodeBorderWidthDirect(obj, node.names, new.sizes)
@@ -24,7 +24,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeBorderWidthDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeBorderWidthDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
