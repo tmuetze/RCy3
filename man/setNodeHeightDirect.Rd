@@ -3,7 +3,7 @@
 \alias{setNodeHeightDirect,CytoscapeWindowClass-method}
 \title{setNodeHeightDirect}
 \description{
-In the specified CytoscapeWindow, set the height of the specified node.
+In the specified CytoscapeWindow, set the height of the specified node(s).
 Not that the node dimensions (height and width) must be unlocked for
 this to work.  If they ARE locked, then node and height change together,
 as specified by a node size rule, or the setNodeSizeDirect method
@@ -30,7 +30,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeHeightDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeHeightDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
