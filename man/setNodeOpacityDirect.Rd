@@ -4,7 +4,7 @@
 \title{setNodeOpacityDirect}
 \description{
 In the specified CytoscapeWindow, set the opacity of all aspectes of the
-specified node:  fill color, border, label.
+specified node(s):  fill color, border, label.
 }
 \usage{
 setNodeOpacityDirect(obj, node.names, new.values)
@@ -28,11 +28,12 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeOpacityDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeOpacityDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
   setNodeOpacityDirect (cw, 'A', 220)
+  setNodeOpacityDirect (cw, c('B', 'C'), c(211, 233))
   redraw (cw)
 }
 
