@@ -3,7 +3,7 @@
 \alias{setNodeBorderOpacityDirect,CytoscapeWindowClass-method}
 \title{setNodeBorderOpacityDirect}
 \description{
-In the specified CytoscapeWindow, set the opacity of the border of the specified node.
+In the specified CytoscapeWindow, set the opacity of the border of the specified node(s).
 }
 \usage{
 setNodeBorderOpacityDirect(obj, node.names, new.values)
@@ -29,11 +29,12 @@ None.
 
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeBorderOpacityDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeBorderOpacityDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
   setNodeBorderOpacityDirect (cw, 'A', 220)
+  setNodeBorderOpacityDirect (cw, c('B', 'C'), c(22, 55))
   redraw (cw)
 }
 
