@@ -27,11 +27,12 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeLabelOpacityDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeLabelOpacityDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
   setNodeLabelOpacityDirect (cw, 'A', 220)
+  setNodeLabelOpacityDirect (cw, c('B', 'C'), c(211, 233))
   redraw (cw)
 }
 
