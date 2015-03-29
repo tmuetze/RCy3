@@ -29,7 +29,7 @@ None.
 }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodePosition.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodePosition.test', graph=makeSimpleGraph())
   displayGraph (cw)
   layoutNetwork(cw)
   setNodePosition (cw, c ('A', 'B', 'C'), c (10.0, 20.0, 500), c (0.0,
