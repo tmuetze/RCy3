@@ -3,7 +3,7 @@
 \alias{setNodeLabelDirect,CytoscapeWindowClass-method}
 \title{setNodeLabelDirect}
 \description{
-In the specified CytoscapeWindow, set the labels of the specified nodes.
+In the specified CytoscapeWindow, set the labels of the specified node(s).
 }
 \usage{
 setNodeLabelDirect(obj, node.names, new.labels)
@@ -25,7 +25,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeLabelDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeLabelDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
