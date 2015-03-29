@@ -27,7 +27,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setEdgeTooltipDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setEdgeTooltipDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   layoutNetwork(cw, 'jgraph-spring')
   redraw (cw)
