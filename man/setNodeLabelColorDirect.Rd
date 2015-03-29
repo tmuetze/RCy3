@@ -4,7 +4,7 @@
 \title{setNodeLabelColorDirect}
 \description{
 In the specified CytoscapeWindow, set the size of the font used in
-rendering the label of the specified node.
+rendering the label of the specified node(s).
 }
 \usage{
 setNodeLabelColorDirect(obj, node.names, new.colors)
@@ -25,7 +25,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeLabelColorDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeLabelColorDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
