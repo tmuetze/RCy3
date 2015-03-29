@@ -4,7 +4,8 @@
 \title{setEdgeOpacityDirect}
 \description{
 In the specified CytoscapeWindow, set the opacity of the specified edge
-or edges.  Low numbers, near zero, are transparent.
+or edges as well as its or their labels at the same time.
+Low numbers, near zero, are transparent.
 High numbers, near 255, are maximally opaque:  they are fully visible.
 }
 \usage{
