@@ -3,7 +3,7 @@
 \alias{setNodeShapeDirect,CytoscapeWindowClass-method}
 \title{setNodeShapeDirect}
 \description{
-In the specified CytoscapeWindow, set the shape of the specified node.
+In the specified CytoscapeWindow, set the shape of the specified node(s).
 }
 \usage{
 setNodeShapeDirect(obj, node.names, new.shapes)
@@ -25,7 +25,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeShapeDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeShapeDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
