@@ -27,7 +27,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setEdgeOpacityDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setEdgeOpacityDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
