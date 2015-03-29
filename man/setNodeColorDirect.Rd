@@ -9,7 +9,7 @@ the duration of the current Cytoscape session, from further manipulation by
 vizmap color rules.
 }
 \usage{
-setNodeColorDirect(obj, node.names, new.color)
+setNodeColorDirect(obj, node.names, new.colors)
 }
 \arguments{
   \item{obj}{a \code{CytoscapeWindowClass} object. }
@@ -28,7 +28,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeColorDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeColorDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
