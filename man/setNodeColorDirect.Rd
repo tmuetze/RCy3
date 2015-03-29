@@ -33,6 +33,7 @@ None.
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
   setNodeColorDirect (cw, 'A', '#880000')
+  setNodeColorDirect (cw, c('A', 'C'), c('#88FF00', '#880000'))
   redraw (cw)
 }
 
