@@ -3,8 +3,8 @@
 \alias{setNodeSizeDirect,CytoscapeWindowClass-method}
 \title{setNodeSizeDirect}
 \description{
-In the specified CytoscapeWindow, set the size of the specified node.
-Not that the node dimensions (size and size) must be locked (the default
+In the specified CytoscapeWindow, set the size of the specified node(s).
+Note that the node dimensions (height and width) must be locked (the default
 state) for this to work.  Node height and width change together.
 }
 \usage{
@@ -28,7 +28,7 @@ None.
  }
 
 \examples{
-  cw <- new.CytoscapeWindow ('setNodeSizeDirect.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('setNodeSizeDirect.test', graph=makeSimpleGraph())
   displayGraph (cw)
   redraw (cw)
   layoutNetwork(cw, 'jgraph-spring')
