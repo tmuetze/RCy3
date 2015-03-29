@@ -3,7 +3,7 @@
 \alias{setNodeLabelOpacityDirect,CytoscapeWindowClass-method}
 \title{setNodeLabelOpacityDirect}
 \description{
-In the specified CytoscapeWindow, set the opacity of the label of the specified node.
+In the specified CytoscapeWindow, set the opacity of the label of the specified node(s).
 }
 \usage{
 setNodeLabelOpacityDirect(obj, node.names, new.values)
