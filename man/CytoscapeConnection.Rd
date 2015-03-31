@@ -18,11 +18,11 @@ CytoscapeConnection (host = "localhost", rpcPort = 9000)
 \arguments{
   \item{host}{
     Defaults to 'localhost', this is the domain name of a machine which
-    is running Cytoscape with the appropriate XMLRPC server plugin.
+    is running Cytoscape with the appropriate CyREST plugin.
 }
   \item{rpcPort}{
-    Defaults to 9000, this may be any port to which the CytoscapeRPC
-    server is listening.
+    Defaults to 1234, this may be any port to which CyREST
+    is listening.
 }
 }
 \value{
