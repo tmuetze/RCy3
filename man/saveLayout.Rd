@@ -24,7 +24,7 @@ Nothing.
 }
 
 \examples{
-  cw <- new.CytoscapeWindow ('saveLayout.test', graph=makeSimpleGraph())
+  cw <- CytoscapeWindow ('saveLayout.test', graph=makeSimpleGraph())
   displayGraph (cw)
   layoutNetwork(cw, 'jgraph-spring')
   saveLayout (cw, 'layout.RData')
