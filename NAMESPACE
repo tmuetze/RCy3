@@ -213,5 +213,3 @@ importMethodsFrom(graph, edgeData, "edgeData<-", edgeDataDefaults,
 
 importFrom(methods, new)
 
-importFrom(XMLRPC, xml.rpc)
-
